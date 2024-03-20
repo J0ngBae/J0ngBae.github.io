@@ -5,13 +5,14 @@ order: 4
 ---
 
 ## I am...
+- Best of the Best 10기 취약점분석 트랙 수료생
 - 호서대학교 AI융합대학 컴퓨터공학부 정보보트랙(2018.03~)
 - 호서대학교 정보보안 동아리 WhiteCode 회장
 
 ## Project
 - 키오스크 취약점 분석 (KVE-2021-2056)
 - Sniffing Tool 제작
-- Spring Framework 취약점 분석 (진행중...)
+- Django 기반 Wargame 사이트 제작
 
 ## 수상 및 관련 경력
 - 2024
