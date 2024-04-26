@@ -1,5 +1,5 @@
 ---
-title: "ACSC CTF 2024"
+title: "ACSC CTF 2024 Write up"
 date: 2024-04-17 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'acsc ctf', '2024']

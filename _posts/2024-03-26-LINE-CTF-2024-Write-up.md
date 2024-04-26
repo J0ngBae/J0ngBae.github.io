@@ -1,5 +1,5 @@
 ---
-title: "LINE CTF 2024"
+title: "LINE CTF 2024 Write up"
 date: 2024-03-26 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'line ctf', '2024']
