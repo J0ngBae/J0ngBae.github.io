@@ -1,6 +1,7 @@
 ---
 title: "2024 12 16 2024 KUCIS 온라인 CTF Write up"
 date: 2024-12-16 +0900
+img_path: /assets/img/posts/2024_kucis_writeup
 categories: [WRITE-UP]
 tags: ['writeup', 'ctf', '2024']
 image:
@@ -8,6 +9,14 @@ image:
     alt: "2024 KUCIS 온라인 ctf"
     lqip: "https://dreamhack-media.s3.amazonaws.com/ctf/69c2c484b3a3939a587bad68fa00340e8e822b28dd94b8bf21cfd033d089b243.png"
 ---
+![alt text](scoreboard.png){: width="300"}
+_2024 KUCIS 온라인 CTF Scoreboard_
+
+비록 규모가 작은 대회지만 지금까지 여러 CTF 참여하면서 첫 입상이자 첫 우승이네요!!
+개인전이였지만 학교, 동아리 이름을 걸고 우승한거라 더 의미가 있었던 것 같습니다.
+<br>
+- Rank : 1st Place 🥇
+- Solve : 9/10 solve (8384pts)
 
 ## Welcome-Pawn - [misc]
 
@@ -69,8 +78,7 @@ print(res.text)
 ## Calc - [pwnable]
 
 > **💎 988 pts / 5 solves
-🩸 *First Blood***
-> 
+> 🩸 *First Blood***
 
 ### Analysis
 
@@ -159,8 +167,7 @@ p.interactive()
 ## Encryption Box - [pwnable]
 
 > **💎 998 pts / 2 solves
-🩸 *First Blood***
-> 
+> 🩸 *First Blood***
 
 ### Analysis
 
@@ -361,8 +368,7 @@ p.interactive()
 ## **Receive Flag - [pwnable]**
 
 > **💎 1000 pts / 1 solves
-🩸 *First Blood***
-> 
+> 🩸 *First Blood***
 
 ### Analysis
 
