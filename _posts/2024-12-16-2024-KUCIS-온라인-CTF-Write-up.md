@@ -4,9 +4,9 @@ date: 2024-12-16 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'ctf', '2024']
 image:
-    path: "![2024_KUCIS_온라인_CTF](image.png)"
+    path: "https://dreamhack-media.s3.amazonaws.com/ctf/69c2c484b3a3939a587bad68fa00340e8e822b28dd94b8bf21cfd033d089b243.png"
     alt: "2024 KUCIS 온라인 ctf"
-    lqip: "![alt text](image-1.png)"
+    lqip: "https://dreamhack-media.s3.amazonaws.com/ctf/69c2c484b3a3939a587bad68fa00340e8e822b28dd94b8bf21cfd033d089b243.png"
 ---
 
 ## Welcome-Pawn - [misc]
