@@ -1,5 +1,5 @@
 ---
-title: "2024 12 16 2024 KUCIS 온라인 CTF Write up"
+title: "2024 KUCIS 온라인 CTF Write up"
 date: 2024-12-16 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'ctf', '2024']
