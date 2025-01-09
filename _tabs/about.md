@@ -18,10 +18,10 @@ order: 4
 
 ## _수상 및 관련 경력_
 ### **2024**
+- 🥇 2024 KUCIS 온라인 CTF 개인전 우승
+- 🚩 2024 CCE 예선 20위 (_Team. 한량네명CCE호시탐탐_)
 - 🚩 2024 Hacktheon Sejong Advanced Group 40th (_Team. WhiteCode_)
 - 🥇 28회 해킹캠프 CTF 1위 (_Team. E4I4_)
-- 🚩 2024 CCE 예선 20위 (_한량네명CCE호시탐탐_)
-- 🥇 2024 KUCIS 온라인 CTF 우승
 
 ### **2023**
 - 🥇 27회 해킹캠프 CTF 1위 (_Team. 어디에도_)
