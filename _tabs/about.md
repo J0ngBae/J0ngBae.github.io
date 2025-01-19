@@ -5,9 +5,11 @@ order: 4
 ---
 
 ## _I am..._
-- Best of the Best 10기 취약점분석 트랙 수료생
+- Stealian Security Leader 5기 수료생(2024.10 - 2025.01)
+- 윤리적 해커 양성과정 5기 수료생(2024.02 - 2024.08)
+- Best of the Best 10기 취약점분석 트랙 수료생(2021.07 - 2022.03)
 - 호서대학교 AI융합대학 컴퓨터공학부 정보보트랙(2018.03~)
-- 호서대학교 정보보안 동아리 WhiteCode 회장
+- 호서대학교 정보보안 동아리 WhiteCode 회장(2022.12 - 2024.12)
     - 2024 대학정보보호동아리 KUCIS 선정
     - 2024 대학 암호동아리 선정
 
@@ -15,16 +17,19 @@ order: 4
 - 키오스크 취약점 분석 (KVE-2021-2056)
 - Sniffing Tool 제작
 - Django 기반 Wargame 사이트 제작
+- Baseband를 통한 해킹 (SSL 5기 프로젝트)
 
 ## _수상 및 관련 경력_
 ### **2024**
-- 🥇 2024 KUCIS 온라인 CTF 개인전 우승
+- **Stealian Security Leader 5기 수료**
+- 🥇 **2024 KUCIS 온라인 CTF 개인전 우승**
+- **윤리적 해커 양성과정 5기 수료**
 - 🚩 2024 CCE 예선 20위 (_Team. 한량네명CCE호시탐탐_)
 - 🚩 2024 Hacktheon Sejong Advanced Group 40th (_Team. WhiteCode_)
-- 🥇 28회 해킹캠프 CTF 1위 (_Team. E4I4_)
+- 🥇 **28회 해킹캠프 CTF 1위** (_Team. E4I4_)
 
 ### **2023**
-- 🥇 27회 해킹캠프 CTF 1위 (_Team. 어디에도_)
+- 🥇 **27회 해킹캠프 CTF 1위** (_Team. 어디에도_)
 - 🚩 WACON 2023 예선 29위 (_Team. WhiteCode_)
 - 🚩 화이트햇 콘테스트 2023 예선 31위 (_Team. WHITECODE_)
 - 🚩 ELECCON 2023 예선 19위 (_Team. WHITECODE_)
