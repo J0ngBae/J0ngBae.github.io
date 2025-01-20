@@ -5,7 +5,7 @@ order: 4
 ---
 
 ## _I am..._
-- Stealian Security Leader 5기 수료생(2024.10 - 2025.01)
+- Stealien Security Leader 5기 수료생(2024.10 - 2025.01)
 - 윤리적 해커 양성과정 5기 수료생(2024.02 - 2024.08)
 - Best of the Best 10기 취약점분석 트랙 수료생(2021.07 - 2022.03)
 - 호서대학교 AI융합대학 컴퓨터공학부 정보보트랙(2018.03~)
@@ -21,7 +21,7 @@ order: 4
 
 ## _수상 및 관련 경력_
 ### **2024**
-- **Stealian Security Leader 5기 수료**
+- **Stealien Security Leader 5기 수료**
 - 🥇 **2024 KUCIS 온라인 CTF 개인전 우승**
 - **윤리적 해커 양성과정 5기 수료**
 - 🚩 2024 CCE 예선 20위 (_Team. 한량네명CCE호시탐탐_)
