@@ -18,33 +18,33 @@ order: 4
 - Sniffing Tool 제작
 - Django 기반 Wargame 사이트 제작
 - Baseband를 통한 해킹 (SSL 5기 프로젝트)
+    - 📄 *[Firmware 파일시스템 변조](https://j0ngbae.github.io/posts/Firmware-%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B3%80%EC%A1%B0/)*
+    - 📄 *[UART 및 CFE 접근](https://j0ngbae.github.io/posts/UART-%EB%B0%8F-CFE-%EC%A0%91%EA%B7%BC/)*
+    - 📄 *[TP-Link AX1500 1-day를 이용한 Shell 획득](https://j0ngbae.github.io/posts/TP-Link-AX1500-1-day%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Shell-%ED%9A%8D%EB%93%9D/)*
 
 ## _수상 및 관련 경력_
 ### **2025**
 - **Stealien Security Leader 5기 수료**
 
 ### **2024**
-- 🥇 **2024 KUCIS 온라인 CTF 개인전 우승**
-    - 📄 *[2024 KUCIS 온라인 CTF Write up](https://j0ngbae.github.io/posts/2024-KUCIS-%EC%98%A8%EB%9D%BC%EC%9D%B8-CTF-Write-up/)*
+- 🥇 **2024 KUCIS 온라인 CTF 개인전 우승** ➡️ *[Write up](https://j0ngbae.github.io/posts/2024-KUCIS-%EC%98%A8%EB%9D%BC%EC%9D%B8-CTF-Write-up/)*
 - **윤리적 해커 양성과정 5기 수료**
 - 🚩 2024 Fiesta 19위 (_Team. WhiteC0de_)
 - 🚩 2024 CCE 예선 20위 (_Team. 한량네명CCE호시탐탐_)
-- 🚩 2024 Hacktheon Sejong Advanced Group 40th (_Team. WhiteCode_)
-    - 📄 *[2024 Hacktheon Sejong CTF Write up](https://j0ngbae.github.io/posts/2024-Hacktheon-Sejong-CTF-Write-up/)*
-- 🥇 **28회 해킹캠프 CTF 1위** (_Team. E4I4_)
-    - 📄 *[제 28회 Hacking Camp CTF Write up](https://j0ngbae.github.io/posts/%EC%A0%9C-28%ED%9A%8C-Hacking-Camp-CTF-Write-up/)*
+- 🚩 2024 Hacktheon Sejong Advanced Group 40th (_Team. WhiteCode_) ➡️ *[Write up](https://j0ngbae.github.io/posts/2024-Hacktheon-Sejong-CTF-Write-up/)*
+- 🥇 **28회 해킹캠프 CTF 1위** (_Team. E4I4_) ➡️ *[Write up](https://j0ngbae.github.io/posts/%EC%A0%9C-28%ED%9A%8C-Hacking-Camp-CTF-Write-up/)*
 
 ### **2023**
 - 🥇 **27회 해킹캠프 CTF 1위** (_Team. 어디에도_)
-- 🚩 WACON 2023 예선 29위 (_Team. WhiteCode_)
+- 🚩 WACON 2023 예선 29위 (_Team. WhiteCode_) ➡️ *[Write up](https://j0ngbae.github.io/posts/WACON-2023-Writeup/)*
 - 🚩 화이트햇 콘테스트 2023 예선 31위 (_Team. WHITECODE_)
 - 🚩 ELECCON 2023 예선 19위 (_Team. WHITECODE_)
 - 🚩 충청 사이버보안 경진대회 10위(_Team. WhiteCode_)
 
 ### **2022**
 - 🚩 CCE 2022 예선 41위 (_Team. #VALUE!_)
-- 🚩 화이트햇 콘테스트 예선 42위 (_Team. 밀리터리프레스_)
-- **차세대 보안 리더 양성 프로그램 Best of the Best 10기 수료**
+- 🚩 화이트햇 콘테스트 예선 42위 (_Team. 밀리터리프레스_) ➡️ *[Write up](https://j0ngbae.github.io/posts/Whitehat-Contest-2022-Write-up/)*
+- 🛡️ **차세대 보안 리더 양성 프로그램 Best of the Best 10기 수료**
 
 ### **2021**
 - 🏅 충청 사이버보안 경진대회 장려상
