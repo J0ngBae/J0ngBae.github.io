@@ -2,7 +2,7 @@
 title: "_IO_FILE Arbitrary Read"
 date: 2022-04-05 +0900
 author: J0ngBae
-categories: [PWNABLE]
+categories: [Hacking, Pwn]
 tags: ['system hacking', 'iofile', '2022']
 ---
 

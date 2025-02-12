@@ -2,7 +2,7 @@
 title: "XSS(Cross Site Script)"
 date: 2022-01-26 +0900
 img_path: /assets/img/posts/xss_cross_site_script
-categories: [Web-Hacking]
+categories: [Hacking, Web]
 tags: ['web', 'xss', 'client side attack', '2022']
 ---
 ## XSS란?

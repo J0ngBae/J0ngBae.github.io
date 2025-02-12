@@ -2,7 +2,7 @@
 title: "_IO_FILE vtable check bypass"
 date: 2022-03-28 +0900
 author: J0ngBae
-categories: [PWNABLE]
+categories: [Hacking, Pwn]
 tags: ['system hacking', 'iofile', '2022']
 ---
 > 우분투 16.04 이후 버전에서는 `_IO_vtable_check` 함수가 추가되어 이전과 같은 방법으로는 공격이 불가능하다.

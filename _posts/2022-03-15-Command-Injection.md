@@ -2,7 +2,7 @@
 title: "Command Injection"
 date: 2022-03-15 +0900
 author: J0ngBae
-categories: [Web-Hacking]
+categories: [Hacking, Web]
 tags: ['web', 'command injection', 'client side attack', '2022']
 ---
 

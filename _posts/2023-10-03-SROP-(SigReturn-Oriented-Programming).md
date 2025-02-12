@@ -1,7 +1,7 @@
 ---
 title: "SROP (SigReturn Oriented Programming)"
 date: 2023-10-03 +0900
-categories: [PWNABLE]
+categories: [Hacking, Pwn]
 tags: ['srop', 'signal', 'system hacking', '2023']
 ---
 ## SROP (SigReturn Oriented Programming)

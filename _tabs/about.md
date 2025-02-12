@@ -25,14 +25,14 @@ order: 4
 
 ### **2024**
 - 🥇 **2024 KUCIS 온라인 CTF 개인전 우승**
-    - [2024 KUCIS 온라인 CTF Write up](https://j0ngbae.github.io/posts/2024-KUCIS-%EC%98%A8%EB%9D%BC%EC%9D%B8-CTF-Write-up/)
+    - 📄 *[2024 KUCIS 온라인 CTF Write up](https://j0ngbae.github.io/posts/2024-KUCIS-%EC%98%A8%EB%9D%BC%EC%9D%B8-CTF-Write-up/)*
 - **윤리적 해커 양성과정 5기 수료**
 - 🚩 2024 Fiesta 19위 (_Team. WhiteC0de_)
 - 🚩 2024 CCE 예선 20위 (_Team. 한량네명CCE호시탐탐_)
 - 🚩 2024 Hacktheon Sejong Advanced Group 40th (_Team. WhiteCode_)
-    - [2024 Hacktheon Sejong CTF Write up](https://j0ngbae.github.io/posts/2024-Hacktheon-Sejong-CTF-Write-up/)
+    - 📄 *[2024 Hacktheon Sejong CTF Write up](https://j0ngbae.github.io/posts/2024-Hacktheon-Sejong-CTF-Write-up/)*
 - 🥇 **28회 해킹캠프 CTF 1위** (_Team. E4I4_)
-    - [제 28회 Hacking Camp CTF Write up](https://j0ngbae.github.io/posts/%EC%A0%9C-28%ED%9A%8C-Hacking-Camp-CTF-Write-up/)
+    - 📄 *[제 28회 Hacking Camp CTF Write up](https://j0ngbae.github.io/posts/%EC%A0%9C-28%ED%9A%8C-Hacking-Camp-CTF-Write-up/)*
 
 ### **2023**
 - 🥇 **27회 해킹캠프 CTF 1위** (_Team. 어디에도_)

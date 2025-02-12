@@ -2,7 +2,7 @@
 title: "_IO_FILE (File Structure)"
 date: 2022-03-24 +0900
 author: J0ngBae
-categories: [PWNABLE]
+categories: [Hacking, Pwn]
 tags: ['system hacking', 'iofile', '2022']
 ---
 

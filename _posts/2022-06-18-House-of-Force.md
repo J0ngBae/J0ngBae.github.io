@@ -2,7 +2,7 @@
 title: "House of Force"
 date: 2022-06-18 +0900
 img_path: /assets/img/posts/house_of_force
-categories: [PWNABLE]
+categories: [Hacking, Pwn]
 tags: [heap, '2022']
 ---
 

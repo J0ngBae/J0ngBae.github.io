@@ -2,7 +2,7 @@
 title: "SECCOMP Filter Bypass"
 date: 2022-03-15 +0900
 author: J0ngBae
-categories: [PWNABLE]
+categories: [Hacking, Pwn]
 tags: ['system hacking', 'seccomp', '2022']
 ---
 ## SECCOMP

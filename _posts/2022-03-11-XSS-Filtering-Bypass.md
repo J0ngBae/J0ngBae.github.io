@@ -2,7 +2,7 @@
 title: "XSS Filtering Bypass"
 date: 2022-03-11 +0900
 author: J0ngBae
-categories: [Web-Hacking]
+categories: [Hacking, Web]
 tags: ['web', 'xss', 'client side attack', '2022']
 ---
 
