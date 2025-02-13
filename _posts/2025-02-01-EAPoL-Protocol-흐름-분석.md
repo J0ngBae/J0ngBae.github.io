@@ -55,8 +55,9 @@ free(0xccfb78, 0, -1, 0xccfb95)
 
 ## EAPoL 호출 흐름
 
-> `i802_init()` → `handle_eapol()` → `drv_event_eapol_rx()` → `wpa_supplicant_event()` → `wpa_supplicant_rx_eapol()` →
-> 
+> `i802_init()` → `handle_eapol()` → `drv_event_eapol_rx()` → `wpa_supplicant_event()` → `wpa_supplicant_rx_eapol()` → `ieee802_1x_receive()` → `wpa_receive()`
+
+### i802_init()
 - `i802_init()` 에서 `handle_eapol()` 함수를 이벤트로 등록한다.
 - 함수 등록과 함께 해당 함수가 사용할 socket descriptor도 등록한다.
 
@@ -87,6 +88,7 @@ static void *i802_init(struct hostapd_data *hapd,
 	}
 ```
 
+### handle_eapol()
 - 해당 소켓으로 데이터가 수신되면 `handle_eapol()` 함수를 호출한다.
 - `recvfrom()` 을 통해 데이터가 `buf` 변수에 저장된다.
 - `have_ifidx()` 는 network Interface 검사
@@ -114,6 +116,7 @@ static void handle_eapol(int sock, void *eloop_ctx, void *sock_ctx)
 }
 ```
 
+### drv_event_eapol_rx()
 - `wpa_event_data` 열거체에 송신측 MAC 주소, 데이터, 데이터 길이를 저장
 - 이후 `EVENT_EAPOL_RX` 매크로와 함계 `wpa_supplicant_event()` 함수를 호출
 
@@ -130,6 +133,7 @@ static inline void drv_event_eapol_rx(void *ctx, const u8 *src, const u8 *data,
 }
 ```
 
+### wpa_supplicant_event()
 - switch ~ case문을 통해 `EVENT_EAPOL_RX` 의 로직을 따라가면 `wpa_supplicant_rx_eapol()` 을 호출함.
 
 ```c
@@ -150,6 +154,7 @@ void wpa_supplicant_event(void *ctx, enum wpa_event_type event,
 ...
 ```
 
+### wpa_supplicant_rx_eapol()
 - BSSID와 src_addr 를 비교하여 현재 연결되어 있는 기기인지 확인
 - 아니면 인증과정 진행
 
@@ -296,6 +301,83 @@ void wpa_supplicant_rx_eapol(void *ctx, const u8 *src_addr,
 		eapol_sm_notify_portValid(wpa_s->eapol, TRUE);
 	}
 }
+```
+
+### ieee802_1x_receive()
+
+- EAPOL 프레임 처리를 담당함.
+- `wpa_receive()` 호출
+
+```c
+key = (struct ieee802_1x_eapol_key *) (hdr + 1);
+if (datalen >= sizeof(struct ieee802_1x_eapol_key) &&
+    hdr->type == IEEE802_1X_TYPE_EAPOL_KEY &&
+    (key->type == EAPOL_KEY_TYPE_WPA ||
+     key->type == EAPOL_KEY_TYPE_RSN)) {
+	wpa_receive(hapd->wpa_auth, sta->wpa_sm, (u8 *) hdr,
+		    sizeof(*hdr) + datalen);
+	return;
+}
+```
+
+### wpa_receive()
+
+- 인증 절차 진행
+- 임의로 보낸 패킷인 `data` 를 사용하는 부분을 중점으로 봄
+- memory corruption이 일어날 만한 부분이 보이지 않음.
+
+```c
+void wpa_receive(struct wpa_authenticator *wpa_auth,
+		 struct wpa_state_machine *sm,
+		 u8 *data, size_t data_len)
+{
+	struct ieee802_1x_hdr *hdr;
+	struct wpa_eapol_key *key;
+	u16 key_info, key_data_length;
+	enum { PAIRWISE_2, PAIRWISE_4, GROUP_2, REQUEST } msg;
+	char *msgtxt;
+	struct wpa_eapol_ie_parse kde;
+	const u8 *key_data;
+	size_t keyhdrlen, mic_len;
+	u8 *mic;
+
+	if (wpa_auth == NULL || !wpa_auth->conf.wpa || sm == NULL)
+		return;
+	wpa_hexdump(MSG_MSGDUMP, "WPA: RX EAPOL data", data, data_len);
+
+	mic_len = wpa_mic_len(sm->wpa_key_mgmt, sm->pmk_len);
+	keyhdrlen = sizeof(*key) + mic_len + 2;
+
+	if (data_len < sizeof(*hdr) + keyhdrlen) {
+		wpa_printf(MSG_DEBUG, "WPA: Ignore too short EAPOL-Key frame");
+		return;
+	}
+
+	hdr = (struct ieee802_1x_hdr *) data;
+	key = (struct wpa_eapol_key *) (hdr + 1);
+	mic = (u8 *) (key + 1);
+	key_info = WPA_GET_BE16(key->key_info);
+	key_data = mic + mic_len + 2;
+	key_data_length = WPA_GET_BE16(mic + mic_len);
+	wpa_printf(MSG_DEBUG, "WPA: Received EAPOL-Key from " MACSTR
+		   " key_info=0x%x type=%u mic_len=%u key_data_length=%u",
+		   MAC2STR(sm->addr), key_info, key->type,
+		   (unsigned int) mic_len, key_data_length);
+	wpa_hexdump(MSG_MSGDUMP,
+		    "WPA: EAPOL-Key header (ending before Key MIC)",
+		    key, sizeof(*key));
+	wpa_hexdump(MSG_MSGDUMP, "WPA: EAPOL-Key Key MIC",
+		    mic, mic_len);
+	if (key_data_length > data_len - sizeof(*hdr) - keyhdrlen) {
+		wpa_printf(MSG_INFO, "WPA: Invalid EAPOL-Key frame - "
+			   "key_data overflow (%d > %lu)",
+			   key_data_length,
+			   (unsigned long) (data_len - sizeof(*hdr) -
+					    keyhdrlen));
+		return;
+	}
+	
+	...
 ```
 
 ## test Code
