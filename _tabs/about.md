@@ -21,6 +21,7 @@ order: 4
     - 📄 *[Firmware 파일시스템 변조](https://j0ngbae.github.io/posts/Firmware-%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B3%80%EC%A1%B0/)*
     - 📄 *[UART 및 CFE 접근](https://j0ngbae.github.io/posts/UART-%EB%B0%8F-CFE-%EC%A0%91%EA%B7%BC/)*
     - 📄 *[TP-Link AX1500 1-day를 이용한 Shell 획득](https://j0ngbae.github.io/posts/TP-Link-AX1500-1-day%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Shell-%ED%9A%8D%EB%93%9D/)*
+    - 📄 *[EAPoL Protocol 흐름 분석 - [Baseband Hacking Project]](https://j0ngbae.github.io/posts/EAPoL-Protocol-%ED%9D%90%EB%A6%84-%EB%B6%84%EC%84%9D/)*
 
 ## _수상 및 관련 경력_
 ### **2025**
