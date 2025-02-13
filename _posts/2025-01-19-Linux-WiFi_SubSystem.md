@@ -40,10 +40,12 @@ img_path: /assets/img/posts/2025-01-19-Linux-WiFi_SubSystem
     - 2010년 9월, Broadcom은 완전 오픈 소스 드라이버를 출시함.
     - brcm80211 드라이버는 2.6.37 커널에 도입되었으며 2.6.39 커널에는 `brcmsmac` 드라이버와 `brcmfmac` 드라이버로 세분화됨.
 
-| brcm80211 | 커널 드라이버 메인라인 버전 |
-| --- | --- |
-| b43 | 커널 드라이버 리버스 엔지니어링 버전 |
-| broadcom-wl | 제한된 라이선스가 있는 Broadcom 드라이버 |
+| Module Name           | Description               |
+| :-------------------  | :--------------------    |
+| brcm80211             | 커널 드라이버 메인라인 버전    |
+| b43                   | 커널 드라이버 리버스 엔지니어링 버전 |
+| broadcom-wl           | 제한된 라이선스가 있는 Broadcom 드라이버 |
+
 - 커널에는 기본 Fullmac 용 `brcmfmac` 과 mac80211 기반 SoftMAC 용 `brcmsmac` 이라는 두 개의 오픈 소스 드라이버가 내장되어 있다.
 - 부팅할 때 자동으로 로드
 
