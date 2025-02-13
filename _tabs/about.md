@@ -15,8 +15,8 @@ order: 4
 
 ## _Project_
 - 키오스크 취약점 분석 (KVE-2021-2056)
-- Sniffing Tool 제작
-- Django 기반 Wargame 사이트 제작
+    - 📄 *[키오스크 검증 우회](https://j0ngbae.github.io/posts/%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC-%EA%B2%80%EC%A6%9D-%EC%9A%B0%ED%9A%8C/)*
+    - 📄 *[OrangeNet Dumb Fuzzer](https://j0ngbae.github.io/posts/OrangeNet-Dumb-Fuzzer/)*
 - Baseband를 통한 해킹 (SSL 5기 프로젝트)
     - 📄 *[Firmware 파일시스템 변조](https://j0ngbae.github.io/posts/Firmware-%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B3%80%EC%A1%B0/)*
     - 📄 *[UART 및 CFE 접근](https://j0ngbae.github.io/posts/UART-%EB%B0%8F-CFE-%EC%A0%91%EA%B7%BC/)*
