@@ -1,7 +1,7 @@
 ---
 title: "XSS(Cross Site Script)"
 date: 2022-01-26 +0900
-img_path: /assets/img/posts/xss_cross_site_script
+img_path: /assets/img/posts/2022-01-26-XSS(Cross Site Script)
 categories: [Hacking, Web]
 tags: ['web', 'xss', 'client side attack', '2022']
 ---

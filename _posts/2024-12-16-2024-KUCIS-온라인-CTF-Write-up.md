@@ -8,7 +8,7 @@ image:
     alt: "2024 KUCIS 온라인 ctf"
     lqip: "https://dreamhack-media.s3.amazonaws.com/ctf/69c2c484b3a3939a587bad68fa00340e8e822b28dd94b8bf21cfd033d089b243.png"
 ---
-![alt text](/assets/img/posts/2024_kucis_writeup/scoreboard.png)
+![alt text](/assets/img/posts/2024-12-16-2024-KUCIS-온라인-CTF-Write-up/scoreboard.png)
 _2024 KUCIS 온라인 CTF Scoreboard_
 
 비록 규모가 작은 대회지만 지금까지 여러 CTF 참여하면서 첫 입상이자 첫 우승이네요!!

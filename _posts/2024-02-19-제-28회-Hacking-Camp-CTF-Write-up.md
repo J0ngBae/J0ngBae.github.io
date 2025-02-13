@@ -4,11 +4,11 @@ date: 2024-02-19 +0900
 categories: [WRITE-UP]
 tags: ['writeup', '해킹캠프', '2024']
 image:
-    path: "/assets/img/posts/hackingcampctf28/1708188245620.png"
+    path: "/assets/img/posts/2024-02-19-제-28회-Hacking-Camp-CTF-Write-up/image1.png"
     alt: "제 28회 해킹캠프 CTF 1위"
-    lqip: "/assets/img/posts/hackingcampctf28/1708188245620.png"
+    lqip: "/assets/img/posts/2024-02-19-제-28회-Hacking-Camp-CTF-Write-up/image1.png"
 ---
-![1708188245620.png](/assets/img/posts/hackingcampctf28/hackcamp_logo.png){: width="300"}
+![1708188245620.png](/assets/img/posts/2024-02-19-제-28회-Hacking-Camp-CTF-Write-up/hackcamp_logo.png){: width="300"}
 _제 28회 해킹캠프_
 
 > 해킹캠프 CTF 연속 1위!! 팀운이 미친듯이 좋았던 듯 합니다...

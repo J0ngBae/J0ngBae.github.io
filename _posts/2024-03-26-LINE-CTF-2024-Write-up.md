@@ -4,9 +4,9 @@ date: 2024-03-26 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'line ctf', '2024']
 image:
-    path: "/assets/img/posts/linectf2024writeup/Untitled.png"
+    path: "/assets/img/posts/2024-03-26-LINE-CTF-2024-Write-up/image1.png"
     alt: "Line CTF"
-    lqip: "/assets/img/posts/linectf2024writeup/Untitled.png"
+    lqip: "/assets/img/posts/2024-03-26-LINE-CTF-2024-Write-up/image1.png"
 ---
 
 
@@ -82,7 +82,7 @@ JWT 값은 `j` 파라미터를 통해 보내줄 수 있다. 따라서 이 JWT �
 eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJhZG1pbiJ9.
 ```
 
-![Untitled](/assets/img/posts/linectf2024writeup/Untitled%201.png)
+![Untitled](/assets/img/posts/2024-03-26-LINE-CTF-2024-Write-up/image2.png)
 
 > Flag : `LINECTF{337e737f9f2594a02c5c752373212ef7}`
 <br>
@@ -145,7 +145,7 @@ public class JwtController {
 eyJhbGciOiJFUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.MAYCAQACAQA=
 ```
 
-![Untitled](/assets/img/posts/linectf2024writeup/Untitled%202.png)
+![Untitled](/assets/img/posts/2024-03-26-LINE-CTF-2024-Write-up/image3.png)
 
 > Flag: `LINECTF{abaa4d1cb9870fd25776a81bbd278932}`
 > 

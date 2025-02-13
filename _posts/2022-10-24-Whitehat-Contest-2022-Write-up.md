@@ -1,7 +1,7 @@
 ---
 title: "Whitehat Contest 2022 Write up"
 date: 2022-10-24 +0900
-img_path: /assets/img/posts/whitehat_contest_2022_writeup
+img_path: /assets/img/posts/2022-10-24-Whitehat-Contest-2022-Write-up
 categories: [WRITE-UP]
 tags: ["화이트햇 콘테스트", "whitehat contest", "2022"]
 ---

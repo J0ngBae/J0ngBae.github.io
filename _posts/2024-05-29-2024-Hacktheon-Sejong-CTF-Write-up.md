@@ -4,9 +4,9 @@ date: 2024-05-29 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'ctf', '2024']
 image:
-    path: "/assets/img/posts/hacktheon_2024_writeup/hacktheon.jpg"
+    path: "/assets/img/posts/2024-05-29-2024-Hacktheon-Sejong-CTF-Write-up/hacktheon.jpg"
     alt: "Hacktheon Sejong CTF"
-    lqip: "/assets/img/posts/hacktheon_2024_writeup/hacktheon.jpg"
+    lqip: "/assets/img/posts/2024-05-29-2024-Hacktheon-Sejong-CTF-Write-up/hacktheon.jpg"
 ---
 
 ## Findiff - [pwn]
@@ -22,7 +22,7 @@ image:
 
 해당 문제는 바이너리 파일을 총 2개 제공해준다. 처음에는 왜 2개의 파일을 제공해 주었는지 모르겠지만, 문제의 제목과 설명에서 그 힌트를 얻을 수 있었다.
 
-![Untitled](/assets/img/posts/hacktheon_2024_writeup/Untitled.png)
+![Untitled](/assets/img/posts/2024-05-29-2024-Hacktheon-Sejong-CTF-Write-up/image1.png)
 
 - vsftpd : 원본 vsftpd 바이너리
 - vvsftpd : 운영측에서 수정한 바이너리
@@ -32,7 +32,7 @@ image:
 - `str_netfd_alloc`
 - `init_connection`
 
-![Untitled](/assets/img/posts/hacktheon_2024_writeup/Untitled%201.png)
+![Untitled](/assets/img/posts/2024-05-29-2024-Hacktheon-Sejong-CTF-Write-up/image2.png)
 
 #### 2-1. init_connection
 
@@ -190,7 +190,7 @@ __int64 __fastcall vsf_sysutil_recv_peek(unsigned int a1, void *a2, unsigned int
 
 `recv()` 가 받는 버퍼의 크기는 `0x4000` 이므로 해당 크기보다 큰 사이즈의 데이터를 보내면 buffer overflow가 발생하여 비정상 종료가 될 수 있다.
 
-![Untitled](/assets/img/posts/hacktheon_2024_writeup/Untitled%202.png)
+![Untitled](/assets/img/posts/2024-05-29-2024-Hacktheon-Sejong-CTF-Write-up/image3.png)
 
 #### 3-1. Exploit Code
 

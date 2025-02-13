@@ -1,7 +1,7 @@
 ---
 title: "Whitehat Contest 2023 Write up"
 date: 2023-09-17 +0900
-img_path: /assets/img/posts/whitehat_contest_2023_writeup
+img_path: /assets/img/posts/2023-09-17-Whitehat-Contest-2023-Write-up
 categories: [WRITE-UP]
 tags: ["화이트햇 콘테스트", "whitehat contest", "2023"]
 ---

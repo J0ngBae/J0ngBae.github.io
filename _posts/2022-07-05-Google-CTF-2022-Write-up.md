@@ -1,7 +1,7 @@
 ---
 title: "Google CTF 2022 Write up"
 date: 2022-07-05 +0900
-img_path: /assets/img/posts/google_ctf_2022_writeup
+img_path: /assets/img/posts/2022-07-05-Google-CTF-2022-Write-up
 categories: [WRITE-UP]
 tags: ["google ctf", "2022"]
 ---

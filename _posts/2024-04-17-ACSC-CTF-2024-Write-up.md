@@ -4,9 +4,9 @@ date: 2024-04-17 +0900
 categories: [WRITE-UP]
 tags: ['writeup', 'acsc ctf', '2024']
 image:
-    path: "/assets/img/posts/acsc_2024_writeup/acsc_logo.png"
+    path: "/assets/img/posts/2024-04-17-ACSC-CTF-2024-Write-up/acsc_logo.png"
     alt: "Asian Cyber Security Challenge 2024"
-    lqip: "/assets/img/posts/acsc_2024_writeup/acsc_logo.png"
+    lqip: "/assets/img/posts/2024-04-17-ACSC-CTF-2024-Write-up/acsc_logo.png"
 ---
 
 ## [Web] - Login!
@@ -48,7 +48,7 @@ app.post('/login', (req, res) => {
 
 아래와 같이 객체의 인덱스로 문자열 대신 배열을 사용해도 정상적으로 접근할 수 있다. 따라서 첫 번째 조건문인 `if (user && user.password == password)` 을 통과할 수 있다.
 
-![Untitled](/assets/img/posts/acsc_2024_writeup/Untitled.png)
+![Untitled](/assets/img/posts/2024-04-17-ACSC-CTF-2024-Write-up/image1.png)
 
 그 다음 조건문은 배열과 문자열을 비교하게 되는데, Strict equality operator(`===`) 로 비교하기 때문에 값 뿐만 아니라 자료형까지 같아야 하므로 해당 조건문은 통과하지 못하게 된다.
 
@@ -60,7 +60,7 @@ app.post('/login', (req, res) => {
 username[]=guest&password=guest
 ```
 
-![Untitled](/assets/img/posts/acsc_2024_writeup/Untitled%201.png)
+![Untitled](/assets/img/posts/2024-04-17-ACSC-CTF-2024-Write-up/image2.png)
 
 `ACSC{y3t_an0th3r_l0gin_byp4ss}`
 
