@@ -4,7 +4,9 @@ date: 2024-09-15 +0900
 img_path: /assets/img/posts/2024-09-15-RSTCON-2024-CTF-Write-up
 categories: [WRITE-UP]
 tags: ['RSTCON', 'write up']
-image: rstcon.png
+image:
+    path: "rstcon.png
+    lqip: "rstcon.png"
 ---
 ## keypad - [Reverse Engineering]
 
