@@ -1,7 +1,7 @@
 ---
 title: "TP-Link AX1500 1-day를 이용한 Shell 획득"
 date: 2025-01-18 +0900
-categories: [Hacking, IoT]
+categories: [Project, Baseband Hacking]
 tags: ['iot', 'firmware', '1-day', 'uart']
 image:
     path: "/assets/img/posts/2025-01-18-TP-Link-AX1500-1-day를-이용한-Shell-획득/image2.png"

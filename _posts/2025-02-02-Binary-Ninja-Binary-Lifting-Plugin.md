@@ -1,7 +1,7 @@
 ---
 title: "Binary Ninja Binary Lifting Plugin - [Z80 Lifting]"
-date: 2025-02-01 +0900
-categories: [Hacking, IoT]
+date: 2025-02-02 +0900
+categories: [Hacking, Reversing]
 tags: ['reversing', 'binary lifting', 'binary ninja']
 image:
     path: "/assets/img/posts/2025-02-02-Binary-Ninja-Binary-Lifting-Plugin/binja-logo.png"

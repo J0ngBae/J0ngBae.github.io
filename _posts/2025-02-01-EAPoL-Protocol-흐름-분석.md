@@ -1,7 +1,7 @@
 ---
 title: "EAPoL Protocol 흐름 분석 - [Baseband Hacking Project]"
 date: 2025-02-01 +0900
-categories: [Hacking, IoT]
+categories: [Project, Baseband Hacking]
 tags: ['iot', 'wireless', 'eapol']
 image:
     path: "/assets/img/posts/2025-02-01-EAPoL-Protocol-흐름-분석/image2.png"
