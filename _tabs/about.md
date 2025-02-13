@@ -30,6 +30,7 @@ order: 4
 ### **2024**
 - 🥇 **2024 KUCIS 온라인 CTF 개인전 우승** ➡️ *[Write up](https://j0ngbae.github.io/posts/2024-KUCIS-%EC%98%A8%EB%9D%BC%EC%9D%B8-CTF-Write-up/)*
 - **윤리적 해커 양성과정 5기 수료**
+- 🥉 **RSTCON 2024 CTF 3위 (_Team. RubiyaLab_)**
 - 🚩 2024 Fiesta 19위 (_Team. WhiteC0de_)
 - 🚩 2024 CCE 예선 20위 (_Team. 한량네명CCE호시탐탐_)
 - 🚩 2024 Hacktheon Sejong Advanced Group 40th (_Team. WhiteCode_) ➡️ *[Write up](https://j0ngbae.github.io/posts/2024-Hacktheon-Sejong-CTF-Write-up/)*
