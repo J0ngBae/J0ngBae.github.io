@@ -13,7 +13,7 @@ order: 4
     - 2024 대학정보보호동아리 KUCIS 선정
     - 2024 대학 암호동아리 선정
 
-## _Project_
+## ⚡ _Project_
 - 키오스크 취약점 분석 (KVE-2021-2056)
     - 📄 *[키오스크 검증 우회](https://j0ngbae.github.io/posts/%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC-%EA%B2%80%EC%A6%9D-%EC%9A%B0%ED%9A%8C/)*
     - 📄 *[OrangeNet Dumb Fuzzer](https://j0ngbae.github.io/posts/OrangeNet-Dumb-Fuzzer/)*
@@ -23,7 +23,7 @@ order: 4
     - 📄 *[TP-Link AX1500 1-day를 이용한 Shell 획득](https://j0ngbae.github.io/posts/TP-Link-AX1500-1-day%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Shell-%ED%9A%8D%EB%93%9D/)*
     - 📄 *[EAPoL Protocol 흐름 분석 - [Baseband Hacking Project]](https://j0ngbae.github.io/posts/EAPoL-Protocol-%ED%9D%90%EB%A6%84-%EB%B6%84%EC%84%9D/)*
 
-## _수상 및 관련 경력_
+## 📜 _수상 및 관련 경력_
 ### **2025**
 - **Stealien Security Leader 5기 수료**
 
